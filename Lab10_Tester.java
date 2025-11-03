@@ -93,10 +93,13 @@ public class Lab10_Tester {
     String expected = "TooSmallText: Only found 3 words.";
     String result = "TooSmallText not raised";
     try {
+
       WordCounter.processText(input, "red");
     } catch (TooSmallText e){
       result = e.toString();
+
     } catch (Exception e) {}
+  
     assertEquals(expected, result);
   }
 
@@ -390,4 +393,4 @@ public class Lab10_Tester {
     assertEquals(expected, result);
   }
 
-}
+ }

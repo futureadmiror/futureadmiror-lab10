@@ -98,7 +98,7 @@ public class WordCounter {
                 System.out.println("Found " + found + " words.");  
                 }
                 catch (Exception r){
-                    System.out.println(e);
+                    System.out.println(r);
                 }
             }
         }
